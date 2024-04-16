@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://gypvdinvsoxp"]
+
+[node name="Area2D" type="Area2D"]
+position = Vector2(226, 111)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]

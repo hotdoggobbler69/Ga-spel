@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyvpy4pew5d4b"]
+
+[ext_resource type="Texture2D" uid="uid://c8q4fayjp242q" path="res://2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_1.png" id="1_hih4j"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tptur"]
+size = Vector2(10, 9)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hih4j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_tptur")
